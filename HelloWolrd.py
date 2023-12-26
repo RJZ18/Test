@@ -1,1 +1,4 @@
-print("Hello World with a change")
+import requests
+
+response = requests.get('https://www.google.com')
+print(response)
